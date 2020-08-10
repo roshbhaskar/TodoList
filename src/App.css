@@ -1,0 +1,82 @@
+
+body{
+    background-color: rgb(149, 59, 94);
+}
+
+.box{
+    margin: 40px auto;
+    width: 400px;
+    min-height: 500px;
+    background-color:  rgb(53, 49, 49);
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+    box-shadow: rgb(53, 49, 49);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#form input{
+    border-radius: 10px;
+    min-height: 30px;
+    width: 200px;
+    padding: 0 20px;
+    background-color: rgb(167, 95, 122);
+    color: white;
+    margin: 10px;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#form input::placeholder{
+    color: rgb(218, 210, 210);
+}
+#form input:focus{
+    outline: none;
+}
+#form button:hover{
+    background-color: rgb(246, 234, 210);
+
+}
+#form button{
+    border-radius: 10px;
+    min-height: 35px;
+    width: 45px;
+    padding: 0 6px;
+    cursor: pointer;
+    font-weight: bolder;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.displayTodo{
+    background-color:  rgb(76, 68, 68);
+    margin:10px auto;
+    width: 280px;
+    min-height: 30px;
+    border-radius: 10px;
+    padding: 0 6px;
+    position: relative;
+    text-shadow: wheat;
+    word-wrap: break-word;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+;
+white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.listButton{
+    position: absolute;
+    right:1px;
+}   
+.Text-only{
+    cursor: pointer;
+    }
+
+#button{
+    cursor: pointer;
+    border-radius: 10px;
+    min-height: 25px;
+    width: 39px;
+}
+#button:hover{
+    background-color: rgb(246, 234, 210);
+}
