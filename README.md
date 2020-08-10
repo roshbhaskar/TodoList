@@ -10,4 +10,8 @@ This web application takes user inputted tasks which can be deleted or striked t
 `  npm start `<br/>
   
   This will start the application in your localhost.<br/>
-  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.<br/>
+  <br/>
+ **NOTE**<br/>
+ _**node modules floder is not included in this repo, make sure to have it insideTodoList directory before running the project.**_
+ 
